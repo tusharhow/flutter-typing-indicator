@@ -27,7 +27,12 @@ class TypingIndicator extends StatefulWidget {
     this.dotCount = 3,
     this.duration = const Duration(milliseconds: 1000),
     this.padding = 8.0,
-    this.borderRadius = const BorderRadius.all(Radius.circular(12.0)),
+    this.borderRadius = const BorderRadius.only(
+      topLeft: Radius.circular(12),
+      topRight: Radius.circular(12),
+      bottomLeft: Radius.circular(12),
+      bottomRight: Radius.circular(12),
+    ),
     this.dotShape = BoxShape.circle,
     this.dotShadow = const [],
     this.dotBorder = const Border(),

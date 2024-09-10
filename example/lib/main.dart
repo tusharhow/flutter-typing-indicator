@@ -26,16 +26,78 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: TypingIndicator(
-          dotSize: 20,
-          dotGradient: LinearGradient(
-            colors: [Colors.red, Colors.yellow],
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Center(
+            child: TypingIndicator(
+              dotSize: 20,
+              isGradient: true,
+              backgroundColor: Colors.orange.shade100,
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(12),
+                topRight: Radius.circular(12),
+                bottomLeft: Radius.circular(0),
+                bottomRight: Radius.circular(12),
+              ),
+              dotGradient: const LinearGradient(
+                colors: [
+                  Color(0xFFF12711),
+                  Color(0xFFF5AF19),
+                ],
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+              ),
+            ),
           ),
-        ),
+          const SizedBox(height: 20),
+          Center(
+            child: TypingIndicator(
+              dotSize: 20,
+              isGradient: true,
+              backgroundColor: Colors.green.shade100,
+              dotGradient: const LinearGradient(
+                colors: [
+                  Colors.blue,
+                  Colors.indigo,
+                ],
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          Center(
+            child: TypingIndicator(
+              dotSize: 20,
+              isGradient: true,
+              backgroundColor: Colors.indigo.shade100,
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(12),
+                topRight: Radius.circular(12),
+                bottomLeft: Radius.circular(12),
+                bottomRight: Radius.circular(0),
+              ),
+              dotGradient: const LinearGradient(
+                colors: [
+                  Colors.blue,
+                  Colors.indigo,
+                ],
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          const Center(
+            child: TypingIndicator(
+              dotSize: 20,
+              isGradient: false,
+            ),
+          ),
+        ],
       ),
     );
   }

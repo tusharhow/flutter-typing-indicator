@@ -3,6 +3,23 @@
 
 A customizable typing indicator widget for Flutter applications, perfect for simulating a "typing..." effect with animated dots. The widget offers full customization options for color, size, shape, shadow, gradients, and more.
 
+# Demo
+### Quick Demo
+
+<img src="https://github.com/user-attachments/assets/0493e1e9-bbeb-4224-a9e6-2bf868f9b021" alt="Simulator Screenshot - iPhone 15 - 2024-09-10 at 23 26 24" width="350"/>
+
+
+### Full Demo
+
+You can watch the full demo video by following this [link](https://github.com/user-attachments/assets/4c1307f0-2c0f-4c1d-8a13-12538b88a694) or view it directly below:
+
+<video width="600" controls>
+  <source src="https://github.com/user-attachments/assets/4c1307f0-2c0f-4c1d-8a13-12538b88a694" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 ## Features
 
 - Customize dot colors, shapes, gradients, borders, shadows, and more.

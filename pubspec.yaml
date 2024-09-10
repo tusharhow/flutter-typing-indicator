@@ -1,6 +1,6 @@
 name: flutter_typing_indicator
 description: A Flutter package to show typing indicator in chat screen.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/tusharhow/flutter-typing-indicator
 
 environment:
