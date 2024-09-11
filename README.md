@@ -6,17 +6,12 @@ A customizable typing indicator widget for Flutter applications, perfect for sim
 # Demo
 ### Quick Demo
 
-![ScreenRecording2024-09-10at11 26 42PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f64b5683-e257-481d-a7b6-e7d243f5d8f7)
+<img src="https://github.com/user-attachments/assets/0493e1e9-bbeb-4224-a9e6-2bf868f9b021" alt="Simulator Screenshot - iPhone 15 - 2024-09-10 at 23 26 24" width="350"/>
 
 
 ### Full Demo
 
-You can watch the full demo video by following this [link](https://github.com/user-attachments/assets/4c1307f0-2c0f-4c1d-8a13-12538b88a694) or view it directly below:
-
-<video width="600" controls>
-  <source src="https://github.com/user-attachments/assets/4c1307f0-2c0f-4c1d-8a13-12538b88a694" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![ScreenRecording2024-09-10at11 26 42PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9c30fde3-7f6f-4e61-a94a-0892632ae1f5)
 
 
 
