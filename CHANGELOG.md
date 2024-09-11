@@ -9,3 +9,7 @@
 # 0.0.3
 
 * Demo added
+
+# 0.0.4
+
+* Version mismatch fixed
