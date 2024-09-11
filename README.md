@@ -6,7 +6,7 @@ A customizable typing indicator widget for Flutter applications, perfect for sim
 # Demo
 ### Quick Demo
 
-<img src="https://github.com/user-attachments/assets/0493e1e9-bbeb-4224-a9e6-2bf868f9b021" alt="Simulator Screenshot - iPhone 15 - 2024-09-10 at 23 26 24" width="350"/>
+![ScreenRecording2024-09-10at11 26 42PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f64b5683-e257-481d-a7b6-e7d243f5d8f7)
 
 
 ### Full Demo
